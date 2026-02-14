@@ -1,7 +1,7 @@
 ---
 title: "Cermin yang Pandai Berbicara"
 date: 2026-02-13
-draft: true
+draft: false
 author: "Robin Syihab"
 description: "Menelusuri pertanyaan mendalam tentang apakah kecerdasan buatan benar-benar berpikir, atau sekadar memantulkan kembali apa yang pernah ditulis manusia."
 tags: ["kecerdasan-buatan", "filsafat", "AI", "refleksi"]
