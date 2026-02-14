@@ -3,4 +3,4 @@
 	url = https://github.com/reuixiy/hugo-theme-meme.git
 [submodule "static/slides"]
 	path = static/slides
-	url = git@github.com:aisyahsyihab/slides.git
+	url = https://github.com/aisyahsyihab/slides.git
