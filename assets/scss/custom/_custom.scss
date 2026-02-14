@@ -1,0 +1,30 @@
+// Custom styles for Robin's blog
+
+// Increase spacing between menu items
+.menu {
+    a {
+        margin: 0 1em;  // Add horizontal margin
+    }
+    
+    .menu-item {
+        margin: 0 0.5em;
+    }
+}
+
+// Header menu flex layout spacing
+header {
+    nav {
+        gap: 1.5em;
+        
+        a {
+            margin: 0 0.3em;
+        }
+    }
+}
+
+// Alternative: target the flex container directly
+.header-inner {
+    nav {
+        gap: 1.2em;
+    }
+}

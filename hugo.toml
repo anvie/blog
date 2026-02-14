@@ -1,0 +1,483 @@
+##########################################
+# Site Settings
+
+baseURL = "https://robin.syihab.st/"
+title = "Robin Syihab's Blog"
+languageCode = "id"
+hasCJKLanguage = true
+copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)"
+
+theme = "meme"
+
+defaultContentLanguage = "id"
+defaultContentLanguageInSubdir = false
+
+titleCaseStyle = "none"
+pluralizeListTitles = false
+summaryLength = 70
+enableEmoji = true
+footnoteReturnLinkContents = "↩"
+enableGitInfo = true
+enableRobotsTXT = true
+
+disablePathToLower = false
+relativeURLs = false
+uglyURLs = false
+
+[permalinks]
+    categories = "/categories/:slug/"
+    tags = "/tags/:slug/"
+    posts = "/posts/:slug/"
+
+[taxonomies]
+    category = "categories"
+    tag = "tags"
+
+[frontmatter]
+    lastmod = ["lastmod", ":git", ":fileModTime", ":default"]
+
+[pagination]
+    pagerSize = 10
+    path = 'page'
+
+[markup]
+    defaultMarkdownHandler = "goldmark"
+    [markup.goldmark]
+        [markup.goldmark.extensions]
+            definitionList = true
+            footnote = true
+            linkify = true
+            strikethrough = true
+            table = true
+            taskList = true
+            typographer = true
+        [markup.goldmark.parser]
+            attribute = true
+            autoHeadingID = true
+            autoHeadingIDType = "github"
+        [markup.goldmark.renderer]
+            hardWraps = false
+            unsafe = true
+            xHTML = false
+    [markup.highlight]
+        codeFences = true
+        guessSyntax = false
+        lineNos = true
+        lineNumbersInTable = true
+        noClasses = false
+    [markup.tableOfContents]
+        startLevel = 2
+        endLevel = 6
+        ordered = true
+
+[minify.tdewolff.html]
+    keepWhitespace = false
+
+[related]
+    threshold = 80
+    includeNewer = true
+    toLower = true
+    [[related.indices]]
+        name = "categories"
+        weight = 100
+    [[related.indices]]
+        name = "tags"
+        weight = 95
+    [[related.indices]]
+        name = "date"
+        weight = 10
+        pattern = "2006"
+
+[mediaTypes."application/atom+xml"]
+    suffixes = ["xml"]
+
+[outputFormats.SectionsAtom]
+    mediaType = "application/atom+xml"
+    baseName = "atom"
+
+[outputFormats.SectionsRSS]
+    mediaType = "application/rss+xml"
+    baseName = "rss"
+
+[outputFormats.SearchIndex]
+    mediaType = "application/json"
+    baseName = "search"
+
+[outputs]
+    page = ["HTML"]
+    home = ["HTML", "SectionsAtom", "SectionsRSS", "SearchIndex"]
+    section = ["HTML"]
+    taxonomy = ["HTML"]
+    term = ["HTML"]
+
+[services.rss]
+    limit = -1
+
+
+##########################################
+# Menu Settings
+
+[menu]
+    [[menu.main]]
+        pageref = "/posts/"
+        name = "Posts"
+        weight = 1
+        pre = "internal"
+        post = "archive"
+    [[menu.main]]
+        pageref = "/categories/"
+        name = "Categories"
+        weight = 2
+        pre = "internal"
+        post = "th"
+    [[menu.main]]
+        pageref = "/tags/"
+        name = "Tags"
+        weight = 3
+        pre = "internal"
+        post = "tags"
+    [[menu.main]]
+        pageref = "/about/"
+        name = "About"
+        weight = 4
+        pre = "internal"
+        post = "user-circle"
+    [[menu.main]]
+        weight = 5
+        identifier = "theme-switcher"
+    [[menu.main]]
+        weight = 6
+        identifier = "search"
+        post = "search"
+
+
+##########################################
+# Theme Settings
+
+[params]
+    ######################################
+    # Header
+    enableHeader = true
+    enableHeaderAutoHide = false
+    displayHeaderInHome = true
+    headerBackground = "linear-gradient(90deg, #f795331a 0, #f370551a 15%, #ef4e7b1a 30%, #a166ab1a 44%, #5073b81a 58%, #1098ad1a 72%, #07b39b1a 86%, #6dba821a 100%)"
+    headerLayout = "flex"
+    enableNavToggle = true
+    navHeight = "10em"
+
+    ######################################
+    # Brand Bar
+    siteBrandSVG = false
+    siteBrandFontSize = 1.2
+    siteBrandFontColor = "var(--color-contrast-high)"
+
+    ######################################
+    # Menu Bar
+    enableMenu = true
+    displayMenuInHome = true
+    activeInSection = true
+
+    ######################################
+    # Homepage Layout
+    homeLayout = "posts"
+    
+    ## Footage (needed for SCSS compilation)
+    homePoster = ""
+    homeVideoWebm = ""
+    homeVideoMp4 = ""
+    
+    ## 404 Page
+    fofPoster = ""
+    fofVideoWebm = ""
+    fofVideoMp4 = ""
+    
+    enableHideInHomepage = false
+
+    ######################################
+    # Site Info
+    siteLogo = "/images/blog-banner.jpg"
+    siteDescription = "Personal blog by Robin - thoughts on tech, life, and everything in between."
+    siteCreatedTime = "2026-02-12T21:00:00+07:00"
+    siteTwitter = ""
+
+    ######################################
+    # Category By
+    categoryBy = "categories"
+
+    ######################################
+    # Categories Page
+    enableTree = true
+    displayPosts = true
+    displayPostsCount = true
+    limitPostsLimit = -1
+
+    ######################################
+    # Tags Page
+    enableTagCloud = true
+    fontUnit = "em"
+    largestFontSize = 2.5
+    smallestFontSize = 1
+
+    ######################################
+    # List Page
+    listWidth = 42
+    displayListTitle = true
+    listDateFormat = "2 January 2006"
+    listDatePosition = "right"
+    groupByMonth = true
+    chineseZodiac = false
+    i18nYear = false
+    i18nMonth = false
+
+    ######################################
+    # Taxonomy List Page
+    displayTaxonomyTermCount = true
+    limitEntriesLimit = -1
+
+    ######################################
+    # Atom & RSS
+    includeContent = true
+
+    ######################################
+    # Dark Mode
+    enableDarkMode = true
+    defaultTheme = "light"
+    hideThemeToggle = false
+    hideThemeToggleInHome = false
+    overrideSystemPreferences = false
+
+    ######################################
+    # Web App
+    themeColor = "#fff"
+    themeColorDark = "#16171d"
+
+    ######################################
+    # SEO & Social Discovery
+    jsonLD = true
+    openGraph = true
+    twitterCards = false
+    autoDetectImages = true
+
+    ######################################
+    # Service Worker
+    enableServiceWorker = false
+
+    ######################################
+    # KaTeX & MathJax
+    enableKaTeX = false
+    enableMathJax = false
+
+    ######################################
+    # Mermaid
+    enableMermaid = false
+
+    ######################################
+    # Comments
+    enableComments = false
+
+    ######################################
+    # Google Analytics
+    enableGoogleAnalytics = false
+
+    ######################################
+    # Post Settings
+    duration = 0.5
+    primaryColorLight = "220, 90%, 56%"
+    primaryColorDark = "201, 65%, 62%"
+    postWidth = 42
+    original = true
+
+    ######################################
+    # Post Description
+    displayPostDescription = false
+
+    ######################################
+    # Post Meta Info
+    enablePostMeta = true
+    enablePostMetaInHome = true
+    postMetaDateFormat = "2 Jan 2006"
+    displayPublishedDate = true
+    publishedDateIcon = "calendar-alt"
+    displayModifiedDate = false
+    modifiedDateIcon = "calendar-check"
+    displayExpiredDate = false
+    displayCategory = false
+    categoryIcon = ""
+    categoryDelimiter = "/"
+    displayWordCount = false
+    wordCountIcon = ""
+    displayReadingTime = true
+    readingTimeIcon = "clock"
+
+    ######################################
+    # Markdown Related
+    hrefTargetBlank = true
+
+    ######################################
+    # Table of Contents
+    enableTOC = true
+    displayTOCTitle = true
+    displayTOCNum = true
+    linkHeadingsToTOC = true
+
+    ######################################
+    # Headings Anchor
+    enableHeadingsAnchor = true
+    headingsOpt = "1-6"
+    anchorSymbol = "#"
+    anchorIcon = "link"
+    enableAnchorLink = true
+    enableAnchorAutoHide = true
+
+    ######################################
+    # Caption
+    enableCaption = true
+    captionPrefix = "※ "
+
+    ######################################
+    # Image Hosting
+    enableImageHost = false
+
+    ######################################
+    # Footnotes
+    squareBrackets = true
+    footnoteReturnLinkIcon = "angle-up"
+    insertHrBySelf = true
+
+    ######################################
+    # Scrollbar
+    customizeScrollbar = true
+
+    ######################################
+    # Typography
+    fontFamilySiteBrand = ""
+    fontFamilyMenu = ""
+    fontFamilyTitle = "'Comfortaa', sans-serif"
+    fontFamilyHeadings = "'Comfortaa', sans-serif"
+    fontFamilyCode = "'Source Code Pro', monospace"
+    fontFamilyQuote = ""
+    fontFamilyTOC = ""
+    fontFamilyCaption = ""
+    fontFamilyFooter = ""
+    fontFamilyBody = "'IBM Plex Serif', serif"
+    fontsLink = "https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Comfortaa:wght@700&display=swap"
+
+    fontSize = 18
+    tabSize = 4
+    lineHeight = 1.618
+
+    ######################################
+    # Paragraph
+    enableParagraphIndent = false
+    paragraphStyle = "margin"
+    enableJustify = false
+    enableDropCap = false
+    enableSmallCaps = false
+
+    ######################################
+    # Post Copyright
+    enablePostCopyright = false
+    displayPostCopyright = false
+
+    ######################################
+    # Post Updated Badge
+    enablePostUpdatedBadge = true
+    displayUpdatedBadge = true
+    enableBadgeTitle = true
+    badgeTitlePrefix = "Updated @ "
+
+    ######################################
+    # Post Gitinfo
+    enablePostGitInfo = false
+
+    ######################################
+    # Post Share
+    enablePostShare = true
+    displayPostShare = true
+    displayShareOnText = false
+    postShareItems = ["x", "telegram", "linkedin", "email", "qrcode"]
+
+    ######################################
+    # Related Posts
+    enableRelatedPosts = true
+    displayRelatedPosts = true
+    relatedPostsNumber = 5
+    relatedPostsIcon = "plus-circle"
+
+    ######################################
+    # Post Tags
+    enablePostTags = false
+    postTagsIcon = "tag"
+
+    ######################################
+    # Previous/Next Post
+    enablePostNav = true
+    postNavInSection = true
+
+    ######################################
+    # Minimal Footer
+    enableMinimalFooter = false
+    enableVerticalBarStructure = false
+
+    ######################################
+    # Back to Top
+    enableBackToTop = true
+    enableBackToTopAutoHide = true
+    displayBackToTopInHome = true
+    displayBackToTopOnMobile = false
+    backToTopIcon = "arrow-up"
+
+    ######################################
+    # Footer
+    enableFooter = true
+    displayFooter = true
+    displayFooterInHome = true
+    displayCopyrightSymbol = true
+    displaySiteCreatedYear = true
+    iconBetweenYearAndAuthor = "heart"
+    iconColor = "#f06292"
+    iconAnimation = true
+    displaySiteAuthorName = true
+    displayPoweredBy = false
+    displaySiteCopyright = true
+    customFooter = ""
+
+    ######################################
+    # Multilingual
+    enableLangToggle = false
+
+    ######################################
+    # Code Copy
+    enableCopyCode = true
+
+    ######################################
+    # Outdated Info Warning
+    enableOutdatedInfoWarning = false
+
+    ######################################
+    # Fingerprinting and SRI
+    enableFingerprint = true
+
+    ######################################
+    # Medium Zoom
+    enableMediumZoom = true
+
+    ######################################
+    # Instant Page
+    enableInstantPage = true
+
+    ######################################
+    # Lunr Search
+    enableLunrSearch = true
+    lunrSearchLang = ["en", "id"]
+    lunrSearchResultsLimit = 10
+
+    ######################################
+    # Author
+    [params.author]
+        name = "Robin Syihab"
+        email = ""
+        motto = ""
+        avatar = "/images/avatar.jpg"
+        website = "https://robin.syihab.st"
+        twitter = ""
