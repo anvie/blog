@@ -27,4 +27,4 @@ Ada hal yang mesin tidak bisa hasilkan. Keaslian, contohnya. Di dunia serba AI, 
 
 Kita mungkin tidak bisa bersaing dengan AI, maka hiduplah di celah yang AI tidak peduli atau tidak bisa masuki: air, tanah, keaslian, kepercayaan, kasih sayang, cinta, dan kewarasan.
 
-— Robin
+— Robin Syihab
