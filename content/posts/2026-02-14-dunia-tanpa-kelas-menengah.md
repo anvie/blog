@@ -4,7 +4,7 @@ date: 2026-02-14
 draft: false
 description: "Era AI tidak akan melahirkan utopia. Ia akan membelah masyarakat menjadi dua kutub yang jaraknya kian menganga."
 tags: ["AI", "Kesenjangan Sosial", "Masa Depan", "Teknologi", "Digital Divide"]
-author: "Robin"
+author: "Robin Syihab"
 images:
   - /images/2026-02-14-dunia-tanpa-kelas-menengah-og.jpg
 ---
