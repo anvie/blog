@@ -3,6 +3,7 @@ title: "Dunia Tanpa Kelas Menengah"
 date: 2026-02-14
 draft: false
 description: "Era AI tidak akan melahirkan utopia. Ia akan membelah masyarakat menjadi dua kutub yang jaraknya kian menganga."
+categories: ["AI & Masa Depan"]
 tags: ["AI", "Kesenjangan Sosial", "Masa Depan", "Teknologi", "Digital Divide"]
 author: "Robin Syihab"
 images:

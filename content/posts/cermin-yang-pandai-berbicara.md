@@ -4,6 +4,7 @@ date: 2026-02-13
 draft: false
 author: "Robin Syihab"
 description: "Menelusuri pertanyaan mendalam tentang apakah kecerdasan buatan benar-benar berpikir, atau sekadar memantulkan kembali apa yang pernah ditulis manusia."
+categories: ["Filsafat"]
 tags: ["kecerdasan-buatan", "filsafat", "AI", "refleksi"]
 images:
   - /images/cermin-yang-pandai-berbicara-og.jpg

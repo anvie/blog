@@ -4,6 +4,7 @@ date = 2026-02-13
 draft = false
 author = 'Robin Syihab'
 description = 'Bagaimana lingkaran kekuasaan mengubah orang cerdas menjadi bodoh.'
+categories = ['Refleksi']
 tags = ['kekuasaan', 'kecerdasan', 'kebodohan', 'konformitas', 'pemikiran-kritis']
 images = ['/images/kebodohan-yang-menginfeksi-og.jpg']
 +++

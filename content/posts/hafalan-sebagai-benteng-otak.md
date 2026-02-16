@@ -4,6 +4,7 @@ date: 2026-02-13
 draft: false
 author: "Robin Syihab"
 description: "Tradisi hafalan di pesantren ternyata menjadi antibodi bagi brain rot yang kini melanda generasi digital."
+categories: ["Pendidikan"]
 tags: ["hafalan", "brain-rot", "pesantren", "kognitif", "generasi-z", "neuroscience"]
 images:
   - /images/hafalan-sebagai-benteng-otak-og.jpg
