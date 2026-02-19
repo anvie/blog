@@ -1,6 +1,5 @@
 ---
 title: "Dalam Keseimbangan, Kita Menemukan Kehidupan"
-slug: "dalam-keseimbangan"
 date: 2026-02-19
 draft: false
 author: "Robin Syihab"
