@@ -1,7 +1,7 @@
 ---
 title: "Kamu Sudah Telanjang di Internet"
 date: 2026-02-26
-draft: true
+draft: false
 author: "Robin Syihab"
 description: "Sebuah paper terbaru membuktikan bahwa AI bisa membongkar identitas asli pengguna anonim hanya dari teks yang mereka tulis. Privasi di internet mungkin sudah mati."
 tags: ["privasi", "AI", "keamanan digital", "LLM", "deanonymization"]
