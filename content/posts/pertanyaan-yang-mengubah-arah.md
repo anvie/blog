@@ -1,6 +1,6 @@
 ---
 title: "Pertanyaan yang Mengubah Arah"
-date: 2026-03-01
+date: 2026-02-28
 draft: false
 author: "Robin Syihab"
 description: "Setiap kali media sosial ramai soal kiamat, saya selalu ingat satu hadis yang mengubah cara saya melihat pertanyaan itu."
