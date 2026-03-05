@@ -4,6 +4,7 @@ date: 2026-02-22
 draft: false
 author: "Robin Syihab"
 description: "Hikmah klasik dari Sirāj al-Mulūk tentang bahaya mendekati kekuasaan dengan dalih memperbaiki dari dalam."
+categories: ["Politik"]
 tags: ["kekuasaan", "politik", "ulama", "Sirāj al-Mulūk", "hikmah klasik", "kritik sosial", "budayawan"]
 images:
   - /images/2026-02-22-dinding-miring-og.jpg

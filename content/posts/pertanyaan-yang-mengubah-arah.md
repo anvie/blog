@@ -4,6 +4,7 @@ date: 2026-02-28
 draft: false
 author: "Robin Syihab"
 description: "Setiap kali media sosial ramai soal kiamat, saya selalu ingat satu hadis yang mengubah cara saya melihat pertanyaan itu."
+categories: ["Refleksi"]
 tags: ["kiamat", "hadis", "kematian", "persiapan", "spiritualitas"]
 images:
   - /images/2026-03-01-kapan-kiamat-og.jpg

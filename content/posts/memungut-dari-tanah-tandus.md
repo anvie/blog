@@ -4,6 +4,7 @@ date: 2026-02-16
 draft: false
 author: "Robin Syihab"
 description: "Ketika pungutan tinggi tapi pendapatan kas tipis, sejarah mencatat itu sebagai gejala awal runtuhnya peradaban."
+categories: ["Politik"]
 tags: ["sejarah", "pajak", "Indonesia", "Ibn Khaldun", "keruntuhan peradaban", "kebijakan publik", "ekonomi politik"]
 images:
   - /images/2026-02-16-memungut-dari-tanah-tandus-og.jpg

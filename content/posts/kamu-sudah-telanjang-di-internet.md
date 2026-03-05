@@ -4,6 +4,7 @@ date: 2026-02-26
 draft: false
 author: "Robin Syihab"
 description: "Sebuah paper terbaru membuktikan bahwa AI bisa membongkar identitas asli pengguna anonim hanya dari teks yang mereka tulis. Privasi di internet mungkin sudah mati."
+categories: ["AI & Masa Depan"]
 tags: ["privasi", "AI", "keamanan digital", "LLM", "deanonymization"]
 images:
   - /images/2026-02-26-telanjang-internet-og.jpg

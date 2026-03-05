@@ -4,6 +4,7 @@ date: 2026-03-05
 draft: false
 author: "Robin Syihab"
 description: "Peringatan Rasulullah tentang kehancuran peradaban yang dimulai dari menyerahkan amanah kepada yang tidak kompeten."
+categories: ["Politik"]
 tags: ["kepemimpinan", "kompetensi", "amanah", "hadits", "politik"]
 images:
   - /images/2026-03-05-amanah-di-tangan-yang-salah-og.jpg

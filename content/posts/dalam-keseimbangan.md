@@ -4,6 +4,7 @@ date: 2026-02-19
 draft: false
 author: "Robin Syihab"
 description: "Kesempurnaan adalah mitos yang kita kejar; keseimbangan adalah kebijaksanaan yang kita temukan saat lelah mengejar."
+categories: ["Filsafat"]
 tags: ["filosofihidup", "keseimbangan", "mindfulness", "syukur", "kebijaksanaan"]
 images:
   - /images/2026-02-19-keseimbangan-og.jpg
