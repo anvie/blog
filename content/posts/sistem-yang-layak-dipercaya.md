@@ -34,9 +34,9 @@ Tetapi blockchain memiliki keterbatasan, dia menjamin integritas data di dalam r
 Lalu bagaimana solusinya?
 
 Agar kita bisa memanfaatkan teknologi untuk hal semacam ini, solusi terbaik adalah kombinasi dari tiga lapisan yang bekerja bersama dan saling mengawasi.
-Blockchain sebagai lapisan kepercayaan teknis. Setiap suara dicatat sebagai transaksi yang ditandatangani secara kriptografis, tidak bisa diubah, dan bisa diverifikasi oleh siapa pun tanpa perlu mengakses sistem inti.
-Verifikasi identitas yang terdesentralisasi. Daftar pemilih yang sah tidak disimpan oleh satu pihak, harus bisa divalidasi bersama oleh beberapa entitas independen, sehingga tidak ada satu pintu masuk tunggal yang bisa dimanipulasi.
-Pengawasan sosial dan prosedural di lapisan terluar. Teknologi secanggih apapun tetap membutuhkan saksi manusia yang memahami apa yang mereka awasi. Audit independen, keterbukaan kode sumber, dan literasi teknis di kalangan pengawas adalah bagian dari sistem.
+1. Blockchain sebagai lapisan kepercayaan teknis. Setiap suara dicatat sebagai transaksi yang ditandatangani secara kriptografis, tidak bisa diubah, dan bisa diverifikasi oleh siapa pun tanpa perlu mengakses sistem inti.
+2. Verifikasi identitas yang terdesentralisasi. Daftar pemilih yang sah tidak disimpan oleh satu pihak, harus bisa divalidasi bersama oleh beberapa entitas independen, sehingga tidak ada satu pintu masuk tunggal yang bisa dimanipulasi.
+3. Pengawasan sosial dan prosedural di lapisan terluar. Teknologi secanggih apapun tetap membutuhkan saksi manusia yang memahami apa yang mereka awasi. Audit independen, keterbukaan kode sumber, dan literasi teknis di kalangan pengawas adalah bagian dari sistem.
 
 Sistem yang aman adalah sistem yang jika diretas pun, semua orang bisa melihat bahwa itu terjadi. Sistem yang layak dipercaya bukan sistem yang meminta kita percaya, melainkan sistem yang membuat pengkhianatan kepercayaan mustahil disembunyikan."
 
