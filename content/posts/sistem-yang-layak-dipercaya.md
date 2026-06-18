@@ -38,6 +38,6 @@ Agar kita bisa memanfaatkan teknologi untuk hal semacam ini, solusi terbaik adal
 2. Verifikasi identitas yang terdesentralisasi. Daftar pemilih yang sah tidak disimpan oleh satu pihak, harus bisa divalidasi bersama oleh beberapa entitas independen, sehingga tidak ada satu pintu masuk tunggal yang bisa dimanipulasi.
 3. Pengawasan sosial dan prosedural di lapisan terluar. Teknologi secanggih apapun tetap membutuhkan saksi manusia yang memahami apa yang mereka awasi. Audit independen, keterbukaan kode sumber, dan literasi teknis di kalangan pengawas adalah bagian dari sistem.
 
-Sistem yang aman adalah sistem yang jika diretas pun, semua orang bisa melihat bahwa itu terjadi. Sistem yang layak dipercaya bukan sistem yang meminta kita percaya, melainkan sistem yang membuat pengkhianatan kepercayaan mustahil disembunyikan."
+Sistem yang aman adalah sistem yang jika diretas pun, semua orang bisa melihat bahwa itu terjadi. Sistem yang layak dipercaya bukan sistem yang meminta kita percaya, melainkan sistem yang membuat pengkhianatan kepercayaan mustahil disembunyikan.
 
 Itulah standar yang seharusnya kita tuntut dari setiap sistem yang mengklaim melayani kepentingan publik.
