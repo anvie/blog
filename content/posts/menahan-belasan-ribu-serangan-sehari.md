@@ -19,7 +19,7 @@ images:
 
 Maghrib di hari pertama registrasi, kabel internet kami dipotong orang.
 
-Bukan putus sendiri. Dipotong. Seseorang memanfaatkan sela-sela pergantian shift keamanan, menggunting kabel di area registrasi, lalu menghilang. Padahal acara baru dimulai hari itu juga, Muktamar ke-35 Nahdlatul Ulama, 27-30 Agustus 2026, di Pondok Pesantren Bahrul Ulum, Tambakberas, Jombang. Enam ribu peserta datang dari seluruh Indonesia, dan masalah di area registrasi langsung muncul di malam pertama.
+Bukan putus sendiri. Dipotong. Seseorang memanfaatkan sela-sela pergantian shift keamanan, menggunting kabel di area registrasi, lalu menghilang. Padahal acara baru dimulai hari itu juga, Muktamar ke-35 Nahdlatul Ulama, 27-30 Agustus 2026, di Pondok Pesantren Bahrul Ulum, Tambakberas, Jombang. Sekitar enam ribu orang tercatat hadir, gabungan peserta Muktamar dengan peninjau, pengamat, relawan, petugas keamanan, serta panitia dari pusat, daerah, hingga lokal, dan masalah di area registrasi langsung muncul di malam pertama.
 
 Yang menyelamatkan malam itu bukan teknologi mahal. Tim teknisi jaringan di lapangan bergerak cepat, dipimpin Gus Rif'an dengan tim teknis jaringannya, Zainal Arifin, panitia lokal sudah menyiapkan peralatan cadangan sejak jauh hari. Kurang dari 45 menit kemudian koneksi pulih. Sebelum Isya selesai, proses registrasi kembali normal.
 
@@ -53,7 +53,7 @@ Kami menyadari serangan tidak selalu datang dari internet. Karena itu, di lapang
 
 Pilihan ini yang membuat insiden di malam pertama registrasi bisa cepat ditangani. Kabel yang digunting orang memang sempat menghentikan registrasi, tapi perbaikannya cepat karena jaringannya jelas, peralatannya ada, dan orangnya siap. Inilah juga kenapa insiden serupa, atau gangguan sinyal, tidak pernah benar-benar melumpuhkan sistem Muktamar.
 
-Satu sistem yang paling kami perhatikan adalah _gate_ akses, tempat ribuan peserta melewati pemeriksaan setiap hari. Sistem ini kami rancang agar bisa berjalan dalam mode _offline_ penuh. Saat internet tersedia, ia sinkron dengan server pusat. Saat internet hilang, ia tetap bekerja, dalam praktiknya, membuat sistem seperti ini tidaklah mudah, karena dalam satu venue bisa ada lebih dari satu perangkat gate yang harus singkron satu sama lain dan bisa membuatkan rekap untuk absensi kehadiran yang bisa diakses dari pusat atau perangkat pimpinan sidang, sehingga pimpinan sidang bisa tahu apakah jumlah peserta sudah quorum atau belum.
+Satu sistem yang paling kami perhatikan adalah _gate_ akses, tempat ribuan orang melewati pemeriksaan setiap hari. Sistem ini kami rancang agar bisa berjalan dalam mode _offline_ penuh. Saat internet tersedia, ia sinkron dengan server pusat. Saat internet hilang, ia tetap bekerja, dalam praktiknya, membuat sistem seperti ini tidaklah mudah, karena dalam satu venue bisa ada lebih dari satu perangkat gate yang harus singkron satu sama lain dan bisa membuatkan rekap untuk absensi kehadiran yang bisa diakses dari pusat atau perangkat pimpinan sidang, sehingga pimpinan sidang bisa tahu apakah jumlah peserta sudah quorum atau belum.
 
 ![Rekap absensi kehadiran peserta melalui sistem gate](/images/2026-09-06-rekap-absensi-gate.png)
 
@@ -65,6 +65,6 @@ Kalau ditanya apa yang paling menentukan, jawabannya tidak hanya ada di diagram 
 
 Faktor penentu kesuksesan yang tidak kalah pentingnya adalah kegigihan panitia lokal yang memegang peranan besar. Mereka yang memimpin langsung di lapangan di bawah arahan Gus Rozaq dan tangan dingin Gus Rif'an. Mereka yang menyiapkan peralatan cadangan sebelum insiden terjadi, yang berlari saat kabel dipotong, yang memastikan registrasi kembali jalan sebelum Isya. Tanpa mereka, desain sebaik apa pun hanya akan jadi dokumen _blueprint_.
 
-Alhamdulillah Muktamar selesai dengan sukses, ~6.000 peserta pulang, dan tidak ada yang tahu seberapa dekat sistem kita dengan badai serangan. Mungkin memang itu ukuran keberhasilan yang paling nyata, ketika pertahanan bekerja, tidak ada yang menyadarinya.
+Alhamdulillah Muktamar selesai dengan sukses, ~6.000 orang yang hadir pulang, dan tidak ada yang tahu seberapa dekat sistem kita dengan badai serangan. Mungkin memang itu ukuran keberhasilan yang paling nyata, ketika pertahanan bekerja, tidak ada yang menyadarinya.
 
 [] Robin Syihab
