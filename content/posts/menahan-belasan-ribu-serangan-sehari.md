@@ -5,8 +5,10 @@ draft: false
 toc: false
 tags: ["siber", "keamanan-informasi", "muktamar-nu", "infrastruktur-it", "dokumentasi-teknis"]
 images:
-  - /images/2026-09-06-grafik-serangan-ssh.svg
+  - /images/2026-09-06-menahan-belasan-ribu-serangan-perhari-og.jpg
 ---
+
+![Benteng digital yang menahan belasan ribu serangan per hari](/images/2026-09-06-menahan-belasan-ribu-serangan-perhari-og.jpg)
 
 Maghrib di hari pertama registrasi, kabel internet kami dipotong orang.
 
@@ -46,7 +48,9 @@ abel harus dipotong secara fisik, dan orang yang memotongnya pasti terlihat atau
 
 Pilihan ini yang membuat insiden di malam pertama registrasi bisa ditangani. Kabel yang digunting orang memang sempat menghentikan registrasi, tapi perbaikannya cepat karena jaringannya jelas, peralatannya ada, dan orangnya siap. Inilah juga kenapa insiden serupa, atau gangguan sinyal, tidak pernah benar-benar melumpuhkan sistem Muktamar.
 
-Satu sistem yang paling kami perhatikan adalah gate akses, tempat ribuan peserta melewati pemeriksaan setiap hari. Sistem ini kami rancang agar bisa berjalan dalam mode offline penuh. Saat internet tersedia, ia sinkron dengan server pusat. Saat internet hilang, ia tetap bekerja, dalam praktiknya, membuat sistem seperti ini tidalah mudah, karena dalam satu venue bisa ada lebih dari satu perangkat gate yang harus singkron satu sama lain dan bisa membuatkan rekap untuk absensi/kehadiran.
+Satu sistem yang paling kami perhatikan adalah gate akses, tempat ribuan peserta melewati pemeriksaan setiap hari. Sistem ini kami rancang agar bisa berjalan dalam mode offline penuh. Saat internet tersedia, ia sinkron dengan server pusat. Saat internet hilang, ia tetap bekerja, dalam praktiknya, membuat sistem seperti ini tidalah mudah, karena dalam satu venue bisa ada lebih dari satu perangkat gate yang harus singkron satu sama lain dan bisa membuatkan rekap untuk absensi kehadiran yang bisa diakses dari pusat atau perangkat pimpinan sidang.
+
+![Rekap absensi kehadiran peserta melalui sistem gate](/images/2026-09-06-rekap-absensi-gate.png)
 
 Ujiannya datang di area pleno, saat koneksi internet di sana hilang total. Entah karena diganggu atau karena kapasitas. Yang jelas gate tetap berfungsi, peserta tetap masuk, tidak ada antrean panjang yang mengular. Dari semua komponen sistem sepertinya bagian gate ini yang paling over-engineered, kita bahkan menanam AI agent untuk setiap perangkat gate, dengan desain awal agar bisa melakukan self-healing ketika program error atau rusak, hal ini kita lakukan karena gate adalah bagian yang paling tidak boleh berhenti. 
 
