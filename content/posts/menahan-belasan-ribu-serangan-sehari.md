@@ -46,9 +46,9 @@ abel harus dipotong secara fisik, dan orang yang memotongnya pasti terlihat atau
 
 Pilihan ini yang membuat insiden di malam pertama registrasi bisa ditangani. Kabel yang digunting orang memang sempat menghentikan registrasi, tapi perbaikannya cepat karena jaringannya jelas, peralatannya ada, dan orangnya siap. Inilah juga kenapa insiden serupa, atau gangguan sinyal, tidak pernah benar-benar melumpuhkan sistem Muktamar.
 
-Satu sistem yang paling kami perhatikan adalah gate akses, tempat ribuan peserta melewati pemeriksaan setiap hari. Sistem ini kami rancang agar bisa berjalan dalam mode offline penuh. Saat internet tersedia, ia sinkron dengan server pusat. Saat internet hilang, ia tetap bekerja, karena seluruh data yang dibutuhkan ada di perangkatnya sendiri.
+Satu sistem yang paling kami perhatikan adalah gate akses, tempat ribuan peserta melewati pemeriksaan setiap hari. Sistem ini kami rancang agar bisa berjalan dalam mode offline penuh. Saat internet tersedia, ia sinkron dengan server pusat. Saat internet hilang, ia tetap bekerja, dalam praktiknya, membuat sistem seperti ini tidalah mudah, karena dalam satu venue bisa ada lebih dari satu perangkat gate yang harus singkron satu sama lain dan bisa membuatkan rekap untuk absensi/kehadiran.
 
-Ujiannya datang di area pleno, saat koneksi internet di sana hilang total. Entah karena diganggu atau karena kapasitas. Yang jelas gerbang tetap berfungsi, peserta tetap masuk, tidak ada antrean panjang yang mengular. Dari semua komponen sistem sepertinya bagian gate ini yang paling tampak over-engineered, kita bahkan menanam AI agent untuk setiap perangkat gate, dengan desain awal agar bisa melakukan self-healing ketika program error atau rusak, hal ini kita lakukan karena gate adalah bagian yang tidak boleh berhenti. 
+Ujiannya datang di area pleno, saat koneksi internet di sana hilang total. Entah karena diganggu atau karena kapasitas. Yang jelas gate tetap berfungsi, peserta tetap masuk, tidak ada antrean panjang yang mengular. Dari semua komponen sistem sepertinya bagian gate ini yang paling over-engineered, kita bahkan menanam AI agent untuk setiap perangkat gate, dengan desain awal agar bisa melakukan self-healing ketika program error atau rusak, hal ini kita lakukan karena gate adalah bagian yang paling tidak boleh berhenti. 
 
 Semua yang kami tulis di atas baru sebagian kecil dari keseluruhan cerita. Masih banyak hal menarik yang belum sempat diceritakan di artikel ini, baik dari sisi operasional maupun detail teknis, keputusan-keputusan kecil yang dibuat buru-buru, malam-malam panjang sebelum acara, dan hal-hal di lapangan yang tidak akan tertulis di media mainstream. Mungkin suatu hari akan kami tulis di lain artikel.
 
@@ -56,6 +56,6 @@ Kalau ditanya apa yang paling menentukan, jawabannya tidak hanya ada di diagram 
 
 Faktor penentu kesuksesan yang tidak kalah pentingnya adalah kegigihan panitia lokal yang memegang peranan besar. Mereka yang memimpin langsung di lapangan di bawah arahan Gus Rozaq dan tangan dingin Gus Rif'an. Mereka yang menyiapkan peralatan cadangan sebelum insiden terjadi, yang berlari saat kabel dipotong, yang memastikan registrasi kembali jalan sebelum Isya. Tanpa mereka, desain sebaik apa pun hanya akan jadi dokumen.
 
-Alhamdulillah Muktamar selesai dengan sukses, ~6.000 peserta pulang, dan tidak ada yang tahu seberapa dekat sistemnya dengan serangan belasan ribu per hari. Mungkin itu ukuran keberhasilan yang paling nyata, ketika pertahanan bekerja, tidak ada yang menyadarinya.
+Alhamdulillah Muktamar selesai dengan sukses, ~6.000 peserta pulang, dan tidak ada yang tahu seberapa dekat sistemnya dengan badai serangan. Mungkin memang itu ukuran keberhasilan yang paling nyata, ketika pertahanan bekerja, tidak ada yang menyadarinya.
 
 [] Robin Syihab
