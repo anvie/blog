@@ -19,9 +19,9 @@ images:
 
 Maghrib di hari pertama registrasi, kabel internet kami dipotong orang.
 
-Bukan putus sendiri. Dipotong. Seseorang memanfaatkan sela-sela pergantian shift keamanan, menggunting kabel di area registrasi, lalu menghilang. Padahal acara baru dimulai hari itu juga, Muktamar ke-35 Nahdlatul Ulama, 27-31 Agustus 2026, di Pondok Pesantren Bahrul Ulum, Tambakberas, Jombang. Sekitar enam ribu orang tercatat hadir, gabungan peserta Muktamar dengan peninjau, pengamat, relawan, petugas keamanan, serta panitia dari pusat, daerah, hingga lokal, dan masalah di area registrasi langsung muncul di malam pertama.
+Bukan putus sendiri. Dipotong. Seseorang memanfaatkan sela-sela pergantian shift keamanan, menggunting kabel di area registrasi, lalu menghilang. Padahal acara baru dimulai hari itu juga, Muktamar ke-35 Nahdlatul Ulama, 27-31 Agustus 2026, di Pondok Pesantren Bahrul Ulum, Tambakberas, Jombang. Sekitar enam ribu orang tercatat hadir, gabungan peserta Muktamar, tamu undangan, relawan, petugas keamanan, serta panitia dari pusat, daerah, hingga lokal, dan masalah di area registrasi langsung muncul di malam pertama.
 
-Yang menyelamatkan malam itu bukan teknologi mahal. Tim teknisi jaringan di lapangan bergerak cepat, dipimpin Gus Rif'an dengan tim teknis jaringannya, Zainal Arifin, panitia lokal sudah menyiapkan peralatan cadangan sejak jauh hari. Kurang dari 45 menit kemudian koneksi pulih. Sebelum Isya selesai, proses registrasi kembali normal.
+Yang menyelamatkan malam itu bukan teknologi mahal. Tim teknisi jaringan di lapangan bergerak cepat, dipimpin Gus Rif'an dengan tim teknis jaringannya, pak Zainal Arifin, panitia lokal sudah menyiapkan peralatan cadangan sejak jauh hari. Kurang dari 45 menit kemudian koneksi pulih. Sebelum Isya selesai, proses registrasi kembali normal.
 
 Insiden itu hanya satu momen, dan pelakunya dekat secara fisik. Serangan yang lebih panjang, lebih sunyi, dan datang dari jarak ribuan kilometer sudah berlangsung berminggu-minggu sebelumnya.
 
