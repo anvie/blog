@@ -65,6 +65,6 @@ Kalau ditanya apa yang paling menentukan, jawabannya tidak hanya ada di diagram 
 
 Faktor penentu kesuksesan yang tidak kalah pentingnya adalah kegigihan panitia lokal yang memegang peranan besar. Mereka yang memimpin langsung di lapangan di bawah arahan Gus Rozaq dan tangan dingin Gus Rif'an. Mereka yang menyiapkan peralatan cadangan sebelum insiden terjadi, yang berlari saat kabel dipotong, yang memastikan registrasi kembali jalan sebelum Isya. Tanpa mereka, desain sebaik apa pun hanya akan jadi dokumen _blueprint_.
 
-Alhamdulillah Muktamar selesai dengan sukses, ~6.000 orang yang hadir pulang, dan tidak ada yang tahu seberapa dekat sistem kita dengan badai serangan. Mungkin memang itu ukuran keberhasilan yang paling nyata, ketika pertahanan bekerja, tidak ada yang menyadarinya.
+Alhamdulillah Muktamar selesai dengan sukses, ~6.000 orang yang hadir pulang, dan tidak ada yang tahu seberapa dekat sistem kita dengan badai bahaya. Mungkin memang itu ukuran keberhasilan yang paling nyata, ketika pertahanan bekerja, tidak ada yang menyadarinya.
 
 [] Robin Syihab
