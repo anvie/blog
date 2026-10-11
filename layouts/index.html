@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+{{- $posts := sort (where site.RegularPages "Section" "posts") "Date" "desc" -}}
+{{- $words := 0 -}}
+{{- range $posts }}{{ $words = add $words .WordCount }}{{ end -}}
+{{- $tags := site.Taxonomies.tags -}}
+{{- $newest := "" -}}
+{{- range first 1 $posts }}{{ $newest = .Date.Format "2 Jan 2006" }}{{ end -}}
+{{- $css := resources.Get "scss/landing.scss" | toCSS | minify | fingerprint -}}
+<html lang="{{ site.LanguageCode | default "id" }}" data-landing-theme="dark">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ site.Title }}</title>
+    <meta name="description" content="{{ site.Params.siteDescription }}">
+    <link rel="canonical" href="{{ .Permalink }}">
+    <link rel="alternate" type="application/rss+xml" href="{{ "rss.xml" | relURL }}" title="{{ site.Title }}">
+    {{ with site.Params.siteLogo }}<link rel="icon" href="{{ . | relURL }}">{{ end }}
+    <meta name="theme-color" content="#050505">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ site.Title }}">
+    <meta property="og:description" content="{{ site.Params.siteDescription }}">
+    <meta property="og:url" content="{{ .Permalink }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;1,400&family=Instrument+Serif:ital@0;1&display=swap">
+    <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+</head>
+<body class="landing">
+    <canvas class="wall" aria-hidden="true"></canvas>
+    <div class="vignette" aria-hidden="true"></div>
+
+    <div class="stage">
+        <header class="frame-top">
+            <a class="brand" href="{{ "/" | relURL }}">
+                <svg viewBox="0 0 88 80" aria-hidden="true" focusable="false">
+                    <rect x="0" y="0" width="16" height="80"/>
+                    <rect x="0" y="0" width="80" height="16"/>
+                    <rect x="64" y="16" width="16" height="32"/>
+                    <rect x="0" y="48" width="80" height="16"/>
+                    <rect x="56" y="64" width="16" height="16"/>
+                </svg>
+                <span>robin.syihab.st</span>
+            </a>
+            <nav class="switch" aria-label="Lainnya">
+                <a href="https://github.com/anvie" rel="me">github</a>
+                <a href="{{ "rss.xml" | relURL }}">rss</a>
+                <a href="{{ "about/" | relURL }}">about</a>
+                <button class="theme-key" type="button" data-theme-key title="Ganti tema">:theme</button>
+            </nav>
+        </header>
+
+        <h1 class="sr-only">{{ site.Title }} — {{ site.Params.siteDescription }}</h1>
+
+        <section class="editor" aria-label="Editor">
+            <div class="tabline">
+                <span class="tab-dir">~/blog/posts</span>
+                <span class="tab-file" data-tabfile></span>
+                <label class="filter">
+                    <span class="filter-mark" aria-hidden="true">/</span>
+                    <input class="filter-input" type="search" autocomplete="off" spellcheck="false" aria-label="Cari artikel" placeholder="cari artikel">
+                </label>
+                <span class="tab-stats">{{ len $posts }} berkas</span>
+            </div>
+
+            <div class="editor-body">
+                <nav class="tree" id="tree" aria-label="Daftar artikel">
+                    <p class="tree-root">~/blog/posts/</p>
+                    {{- $curYear := "" -}}
+                    {{- range $i, $p := $posts -}}
+                        {{- $y := $p.Date.Format "2006" -}}
+                        {{- if ne $y $curYear -}}
+                            {{- if ne $curYear "" }}</div>{{ end -}}
+                            <p class="year">{{ $y }}</p><div class="year-group">
+                            {{- $curYear = $y -}}
+                        {{- end -}}
+                        <a class="node{{ if eq $i 0 }} is-active{{ end }}" href="{{ $p.RelPermalink }}" data-index="{{ $i }}" data-slug="{{ $p.File.TranslationBaseName }}" data-title="{{ $p.Title }}">
+                            <span class="glyph" aria-hidden="true">{{ if eq $i 0 }}▸{{ else }}·{{ end }}</span>
+                            <span class="node-name">{{ $p.File.TranslationBaseName }}.md</span>
+                            <span class="node-title">{{ $p.Title }}</span>
+                            <span class="node-meta">
+                                <span class="node-date">{{ $p.Date.Format "2 Jan 2006" }}</span>
+                                {{ with $p.Params.tags }}<span class="node-tags">{{ delimit (first 3 .) " · " }}{{ if gt (len .) 3 }} +{{ sub (len .) 3 }}{{ end }}</span>{{ end }}
+                            </span>
+                        </a>
+                        <template class="node-data">
+                            <div class="d-title">{{ $p.Title }}</div>
+                            <div class="d-meta">{{ $p.Date.Format "2 January 2006" }} · {{ $p.ReadingTime }} min baca{{ with $p.Params.tags }} · {{ delimit (first 4 .) " · " }}{{ end }}{{ if gt (len $p.Params.tags) 4 }} +{{ sub (len $p.Params.tags) 4 }}{{ end }}</div>
+                            <p class="d-desc">{{ with $p.Description }}{{ . }}{{ else }}{{ $p.Summary | plainify | truncate 260 }}{{ end }}</p>
+                            <div class="d-url">{{ $p.RelPermalink }}</div>
+                        </template>
+                    {{- end -}}
+                    {{- if ne $curYear "" }}</div>{{ end -}}
+                </nav>
+
+                <div class="pane">
+                    <p class="winbar">
+                        <span class="winbar-file" data-winbar></span>
+                        <span class="winbar-hint">NORMAL</span>
+                    </p>
+                    <div class="buffer" id="buffer" tabindex="0" aria-live="polite"></div>
+                    <p class="keymap" aria-hidden="true">j k pindah · enter buka · / cari · g g ke atas · ? bantuan</p>
+                </div>
+            </div>
+
+            <p class="status" aria-hidden="true">
+                <span class="mode">NORMAL</span>
+                <span class="path" data-status-path>~/blog/posts/</span>
+                <span class="pos" data-status-pos>{{ len $posts }}/{{ len $posts }}</span>
+                <span class="clock" data-clock>{{ now.Format "15:04:05" }}</span>
+            </p>
+
+            <p class="cmdline">
+                <span class="cmdline-colon">:</span><span class="cmdline-text" data-cmd></span>
+                <span class="cmdline-note">// menulis supaya berpikir lebih jernih.</span>
+            </p>
+        </section>
+
+        <footer class="frame-bottom">
+            <p class="stats">
+                <span>{{ len $posts }} posts</span>
+                <span>{{ $words }} kata</span>
+                <span>{{ len $tags }} tags</span>
+                <span>terakhir {{ $newest }}</span>
+            </p>
+            <a class="enter" href="{{ "posts/" | relURL }}">enter ↩</a>
+        </footer>
+    </div>
+
+    <script src="{{ "js/landing.js" | relURL }}" defer></script>
+</body>
+</html>
