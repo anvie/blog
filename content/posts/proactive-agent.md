@@ -10,8 +10,10 @@ tags: ["agentic-ai", "proactive-agent", "decision-model", "llm", "keamanan-siber
 aliases:
   - /posts/proactive-agent-ketika-ai-berhenti-menunggu-disuruh/
 images:
-  - /images/proactive-agent-diagram.jpg
+  - /images/proactive-agent-banner.jpg
 ---
+
+![Robot di lini perakitan menyaring lautan data menjadi signal](/images/proactive-agent-banner.jpg)
 
 Teknologi agentic AI yang ada saat ini sebenarnya tidak layak untuk disebut dan digunakan sebagai personal assistant. Dia hanya genAI dengan tools. Kita tetap harus menyuruh untuk membuatnya bekerja.
 
@@ -36,3 +38,5 @@ Yang menarik, sistem ini juga sangat bermanfaat di bidang cyber security. Ketika
 ![Pesan proaktif dari Aisyah: CVE kernel Linux, jadwal rilis keamanan Node.js, dan ringkasan sukuk ritel](/images/proactive-agent-system.jpg)
 
 Pada akhirnya kita bisa mendapatkan AI agent yang benar-benar terasa hidup, tidak hanya seperti personal assistant, bahkan bisa seperti pengawas: yang benar-benar sangat mengerti kita, yang bisa mengingatkan kita akan bahaya yang belum terjadi, atau mengarahkan kita pada keberuntungan yang belum terpikirkan.
+
+[] Robin Syihab
